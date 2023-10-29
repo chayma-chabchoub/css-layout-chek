@@ -1,0 +1,168 @@
+.section1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{ 
+    font-family: 'Roboto', sans-serif;
+    display: inline;
+    width: 100px;
+}
+.pic{
+    width: 240px;
+    margin: 10px 100px 5px 20px;
+}
+.introduction{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 5%;
+}
+.introduction p{
+    line-height: 1.6;
+}
+.section1 h2{
+    color: #00b39b;
+    font-weight: 100;
+}
+li{
+    display: inline;
+    width: 50px;
+    color:rgb(83, 49, 163);
+    padding : 20px;
+    padding-right: 20;
+}
+.inline :hover { 
+color: aquamarine;
+}
+a{ text-decoration: none;
+    text-align: left;
+    padding-right: 20;
+}
+/* img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20;
+    height: 20;
+} */
+h2{
+    text-align: center;
+}
+.clowmn {
+    float: left;
+  width: 50%
+}
+/* img { 
+    display: block;
+    margin: 30px;
+} */
+img{ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20;
+    height: 20;
+}
+.inline{
+    display: inline;
+    width: 400px;
+    padding-top: 70px;
+    margin-left: 800px;
+    margin-right: auto;
+}
+.BG_css{
+    display: inline;
+}
+.BG_css{
+    background-image: url(."https://media.discordapp.net/attachments/1156946551835472014/1164214045394600036/bg.png?ex=654265d2&is=652ff0d2&hm=58ee471a56e28153093f8818f88d17a8569d6c4d02cc265156e12fa1369e8728&=&width=714&height=402" alt="">
+    );
+    background-repate:none;
+    background-size:cover;
+}
+.section2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 5%;
+   
+}
+.patient{
+    background-color: #00ccb1;
+}
+.doctors{
+    background-color: #3e83e0;
+}
+.clinics{
+    background-color: #1b2735;
+}
+.box{
+    height: 300px;
+    border-radius: 7px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.box p{
+    font-size: 20px;
+}
+.section2 img{
+    display: inline;
+}
+.style {
+    display: block;
+    padding-top: 70px;
+    
+}
+select{
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    color: white;
+    font-size: 20px;
+}
+option{
+    color: gray;
+}
+
+.section2{
+    width: 70%;
+    margin: auto;
+}
+.section1{
+    width: 70%;
+    margin: auto; 
+   
+}
+@media (max-width:500px) {
+    .introduction{
+        display:grid;
+        grid-template-columns: 100%;
+        
+    } 
+    .section1{
+        width: 100%;
+        
+    }
+.section1 h2{
+    text-align: center;
+}
+.section2{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 5%;
+   
+}
+}
+.text-style{
+    font-size: 30px;
+    color: #81b4ac;
+}
+.logo {
+    height: 20px;
+    width: auto;
+    max-width: 100%;
+}
+.logo :hover { 
+    color: aquamarine;
+    }
